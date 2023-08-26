@@ -1,0 +1,55 @@
+.main-frame {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -5%;
+    height: 100vh;
+}
+
+.login-box {
+    background-color: rgba(104, 72, 112, 0.1);
+    border: 1px solid #ccc;
+    padding: 60px; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+    max-width: 600px; 
+    margin: 0 auto;
+}
+
+h2 {
+    text-align: center;
+    color:aqua;
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 25px; 
+}
+
+input {
+    padding: 10px; /* Increased padding for input fields */
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    padding: 12px; /* Increased padding for the button */
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+button:hover{
+    transform: scale(1.05);
+    transition: all ease 0.2s;
+}
+button:active {
+    transform: scale(0.95);
+}
+.sign-up{
+    color: aqua;
+    margin-left: 90%;
+    margin-top: 5%;
+}
